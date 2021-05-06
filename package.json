@@ -1,0 +1,43 @@
+{
+  "name": "mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@discordjs/opus": "git+https://github.com/discordjs/opus.git",
+    "ascii-table": "^0.0.9",
+    "discord-ytdl-core": "^5.0.0",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "ffmpeg-static": "^4.2.7",
+    "fs": "^0.0.1-security",
+    "genius-lyrics": "^4.1.4",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1",
+    "soundcloud-scraper": "^4.0.1",
+    "spotify-url-info": "^2.2.0",
+    "youtube-sr": "^2.0.5",
+    "ytdl-core": "^4.4.1",
+    "ytpl": "^2.2.1",
+    "ytsr": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "dev": "nodemon .",
+    "startup": "npm update && node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geraldlol10/Discord-Music-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geraldlol10/Discord-Music-Bot/issues"
+  },
+  "homepage": "https://github.com/geraldlol10/Discord-Music-Bot#readme"
+}
